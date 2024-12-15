@@ -1,3 +1,4 @@
+// 新增todo模擬API
 const addTodo = (onSuccess, onFailure, onBefore, onFinal) => {
     onBefore && onBefore();
     return async () => {
@@ -22,6 +23,7 @@ const addTodo = (onSuccess, onFailure, onBefore, onFinal) => {
     };
 };
 
+// 刪除todo模擬API
 const deleteTodo = (onSuccess, onFailure, onBefore, onFinal) => {
     onBefore && onBefore();
     return async () => {

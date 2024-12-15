@@ -1,4 +1,4 @@
-import TodoItem from "../components/TodoItem"
+import TodoItem from "./TodoItem"
 import TodoForm from "./TodoForm";
 import { useTodoContext } from "../context/useTodoContext";
 
